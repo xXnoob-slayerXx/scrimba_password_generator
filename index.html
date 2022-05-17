@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+         <script src="https://kit.fontawesome.com/abb579fef1.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="maincontent">
+            <div id="headers">
+                <h1>Generate a <br><span id="headerpassword">random password</span></h1>
+                <p id="description1">Never use an insecure password again</p>
+                <button id="generator" onclick="generate_passwords()"><i class="fa-solid fa-bolt"></i> Generate Passwords</button>
+            </div>
+            
+            <hr id="separator">
+            
+            <div id="generated">
+                <div id="row1">
+                    <button id="password1" onclick="copyToClipboard(button1.textContent) ; exampleFunction(this)"><i class="fa-solid fa-ellipsis"></i></button>
+                    <button id="password2" onclick="copyToClipboard(button2.textContent) ; exampleFunction(this)"><i class="fa-solid fa-ellipsis"></i></button>
+                </div>
+                <div id="row2">
+                    <button id="password3" onclick="copyToClipboard(button3.textContent) ; exampleFunction(this)"><i class="fa-solid fa-ellipsis"></i></button>
+                    <button id="password4" onclick="copyToClipboard(button4.textContent) ; exampleFunction(this)"><i class="fa-solid fa-ellipsis"></i></button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- <script src="index.pack.js"></script> -->
+        <script src="index.js"></script>
+    </body>
+</html>
